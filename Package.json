@@ -1,0 +1,19 @@
+{
+  "name": "samsung-financeiro-api",
+  "version": "1.0.0",
+  "description": "API Backend — Samsung Service Relatório Financeiro (MySQL)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
